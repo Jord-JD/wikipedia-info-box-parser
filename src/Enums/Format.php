@@ -1,6 +1,6 @@
 <?php
 
-namespace DivineOmega\WikipediaInfoBoxParser\Enums;
+namespace JordJD\WikipediaInfoBoxParser\Enums;
 
 abstract class Format
 {

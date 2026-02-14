@@ -18,8 +18,8 @@ composer require jord-jd/wikipedia-info-box-parser
 See the example usage below.
 
 ```php
-use DivineOmega\WikipediaInfoBoxParser\Enums\Format;
-use DivineOmega\WikipediaInfoBoxParser\WikipediaInfoBoxParser;
+use JordJD\WikipediaInfoBoxParser\Enums\Format;
+use JordJD\WikipediaInfoBoxParser\WikipediaInfoBoxParser;
 
 require_once __DIR__.'/../vendor/autoload.php';
 

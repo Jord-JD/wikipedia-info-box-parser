@@ -1,10 +1,10 @@
 <?php
 
-namespace DivineOmega\WikipediaInfoBoxParser;
+namespace JordJD\WikipediaInfoBoxParser;
 
-use DivineOmega\DOFileCachePSR6\CacheItemPool;
-use DivineOmega\WikipediaInfoBoxParser\Enums\Format;
-use DivineOmega\WikitextParser\Parser;
+use JordJD\DOFileCachePSR6\CacheItemPool;
+use JordJD\WikipediaInfoBoxParser\Enums\Format;
+use JordJD\WikitextParser\Parser;
 use Psr\Cache\CacheItemPoolInterface;
 use Psr\Cache\InvalidArgumentException;
 use stdClass;

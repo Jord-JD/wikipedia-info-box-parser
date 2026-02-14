@@ -13,12 +13,12 @@
     "php": ">=7.1",
     "ext-json": "*",
     "ext-dom": "*",
-    "divineomega/do-file-cache-psr-6": "^2.0",
-    "divineomega/php-wikitext-parser": "^1.0"
+    "jord-jd/do-file-cache-psr-6": "^3.0",
+    "jord-jd/php-wikitext-parser": "^3.0"
   },
   "autoload": {
     "psr-4": {
-      "DivineOmega\\WikipediaInfoBoxParser\\": "src"
+      "JordJD\\WikipediaInfoBoxParser\\": "src"
     }
   },
   "replace": {
@@ -26,7 +26,7 @@
   },
   "extra": {
     "branch-alias": {
-      "dev-master": "5.0-dev"
+      "dev-master": "6.0-dev"
     }
   }
 }
