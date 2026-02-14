@@ -10,7 +10,7 @@ installed with Composer. Simply run the following
 command from the root of your project.
 
 ```bash
-composer require divineomega/wikipedia-info-box-parser
+composer require jord-jd/wikipedia-info-box-parser
 ```
 
 ## Usage
