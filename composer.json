@@ -13,8 +13,8 @@
     "php": ">=7.1",
     "ext-json": "*",
     "ext-dom": "*",
-    "jord-jd/do-file-cache-psr-6": "^3.0",
-    "jord-jd/php-wikitext-parser": "^3.0"
+    "jord-jd/do-file-cache-psr-6": "^3.0||^4.0",
+    "jord-jd/php-wikitext-parser": "^3.1"
   },
   "autoload": {
     "psr-4": {
@@ -26,7 +26,15 @@
   },
   "extra": {
     "branch-alias": {
-      "dev-master": "6.0-dev"
+      "dev-master": "6.1-dev"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.5||^9.6||^10.5||^11.5||^12.5"
+  },
+  "config": {
+    "allow-plugins": {
+      "kylekatarnls/update-helper": false
     }
   }
 }
